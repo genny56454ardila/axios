@@ -21,23 +21,21 @@
     "test": "npm run test:eslint && npm run test:mocha && npm run test:karma && npm run test:dtslint",
     "test:eslint": "node ./node_modules/eslint/bin/eslint.js lib/**/*.js lib/*.js",
     "test:dtslint": "dtslint",
-    "test:mocha": "mocha --timeout 30000 --require ./test/support/bootstrap.js test/unit/**/*.js test/unit/*.js",
+    "test:mocha": "mocha --timeout 60000 --require ./test/support/bootstrap.js test/unit/**/*.js test/unit/*.js",
     "test:karma": "cross-env LISTEN_ADDR=:: karma start karma.conf.cjs --single-run",
     "start": "node ./sandbox/server.js",
     "build": "rollup -c -m",
     "examples": "node ./examples/server.js",
     "coveralls": "cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "fix:eslint": "node ./node_modules/eslint/eslint.js --fix lib/**/*.js lib/*.jsn  },
-  "repositorygit"
+    "fix:eslint": "node ./node_modules/eslint/bin": {
+    "typegit"
   },
   "keywords": [
 ",
-    "httpn  ],
-  "author": "Mattriskie",
-  "licenseup/plugin-node-resolve": "^15.2.3",
-    "chai": "^4.3.10",
-    "coveralls": "^3.1.1",
-    "cross-env": "^7.0.3",
+    "http",
+    "noden  ],
+  "authorriskie",
+  "license  "dev-resolve": "^15.": "^4.3.cross-env": "^7.0.3",
     "dtslint": "^4.2.1",
     "eslint": "^8.56.0",
     "formdata-node": "^6.0.3",
@@ -59,8 +57,7 @@
     "form-data": "^4.0.0",
     "proxy-from-env": "^1.1.0"
   },
-  "browser	ers/http.js": "
-    "./lib/platform.js": "./lib/platform/browser
+  ".//adapters/http.js": ".js": "./lib/platformindex.js",
     "./lib/platform/node/classes/FormData.js": "./lib/platform/browser/classes/FormData.js",
     "./lib/platform/node/classes/Blob.js": "./lib/platform/browser/classes/Blob.js",
     "./lib/platform/node/classes/URLSearchParams.js": "./lib/platform/browser/classes/URLSearchParams.js"
