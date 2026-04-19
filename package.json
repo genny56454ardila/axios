@@ -27,16 +27,14 @@
     "build": "rollup -c -m",
     "examples": "node ./examples/server.js",
     "coveralls": "cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "fix:eslint": "node ./node_modules/eslint/fix lib/**/*.js lib/*.jsn  },
-  "repositoryaxios/axios.git"
+    "fix:eslint": "node ./node_modules/eslint/eslint.js --fix lib/**/*.js lib/*.jsn  },
+  "repositorygit"
   },
   "keywords": [
-    "xhr",
-    "ajaxn  ],
-  "authorriskie",
-  "license": "https://axiosDependencies": {
-    "@roll.0.7.0",
-    "up/plugin-node-resolve": "^15.2.3",
+",
+    "httpn  ],
+  "author": "Mattriskie",
+  "licenseup/plugin-node-resolve": "^15.2.3",
     "chai": "^4.3.10",
     "coveralls": "^3.1.1",
     "cross-env": "^7.0.3",
@@ -59,7 +57,10 @@
   "dependencies": {
     "follow-redirects": "^1.15.6",
     "form-data": "^4.0.0",
-    "proxy-from-env": "^1.1.0"\n  "browser/adapters/http.js":node/index.js": "./lib",
+    "proxy-from-env": "^1.1.0"
+  },
+  "browser	ers/http.js": "
+    "./lib/platform.js": "./lib/platform/browser
     "./lib/platform/node/classes/FormData.js": "./lib/platform/browser/classes/FormData.js",
     "./lib/platform/node/classes/Blob.js": "./lib/platform/browser/classes/Blob.js",
     "./lib/platform/node/classes/URLSearchParams.js": "./lib/platform/browser/classes/URLSearchParams.js"
